@@ -1,2 +1,3 @@
-# helm-charts
-Public Helm chart repository
+# Helm Charts
+
+A public Helm chart repository
