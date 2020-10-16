@@ -2,8 +2,25 @@ apiVersion: v1
 entries:
   keepalived-ingress-vip:
   - apiVersion: v1
+    appVersion: v0.1.6
+    created: "2020-10-16T21:12:42.751596+02:00"
+    description: VRRP-based failover VIP for Kubernetes Ingress Controllers and API
+      servers
+    digest: c99a50f21433314ba5d19146c7dd10672608a1f842bda0da1ccf6bec89698168
+    home: https://www.github.com/janeczku/keepalived-ingress-vip
+    icon: https://raw.githubusercontent.com/janeczku/keepalived-ingress-vip/master/chart/icon.png
+    maintainers:
+    - email: jan@rancher.com
+      name: janeczku
+    name: keepalived-ingress-vip
+    sources:
+    - https://www.github.com/janeczku/keepalived-ingress-vip
+    urls:
+    - https://janeczku.github.io/helm-charts/keepalived-ingress-vip-v0.1.6.tgz
+    version: v0.1.6
+  - apiVersion: v1
     appVersion: v0.1.5
-    created: "2020-10-16T11:08:15.166849+02:00"
+    created: "2020-10-16T21:12:42.750083+02:00"
     description: VRRP-based failover VIP for Kubernetes Ingress Controllers and API
       servers
     digest: 728689dfdae3d70563d43c9335c795462efb41dd98626ef5447bf6a43ee3854d
@@ -20,7 +37,7 @@ entries:
     version: v0.1.5
   - apiVersion: v1
     appVersion: v0.1.4
-    created: "2020-10-16T11:08:15.164913+02:00"
+    created: "2020-10-16T21:12:42.747434+02:00"
     description: VRRP-based failover VIP for Kubernetes Ingress Controllers and API
       servers
     digest: 490697e588d43bceb41d86840b17f4fd8387b7d8b68bbb5621ed1ea1f8fe3413
@@ -35,4 +52,4 @@ entries:
     urls:
     - https://janeczku.github.io/helm-charts/keepalived-ingress-vip-v0.1.4.tgz
     version: v0.1.4
-generated: "2020-10-16T11:08:15.159923+02:00"
+generated: "2020-10-16T21:12:42.738938+02:00"
